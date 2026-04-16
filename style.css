@@ -1,0 +1,74 @@
+.perfil img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.perfil div {
+    max-width: 500px;
+}
+
+.historia {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.curiosidades {
+    padding: 30px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+
+
+
+
+<section class="perfil">
+    <img src="professora.jpg" alt="Foto da Professora">
+    <div>
+        <h2>Sobre a Professo</h2>
+        <p>
+            Maria Oliveira é professora de Língua Portuguesa com mais de 15 anos de experiência.
+            Sempre dedicada aos alunos, ela acredita que a educação transforma vidas e abre portas
+            para o futuro.
+        </p>
+    </div>
+</section>
+
+<section class="historia">
+    <h2>História</h2>
+    <p>
+        Desde jovem, Maria sonhava em ser professora. Formou-se em Letras e começou sua carreira
+        em escolas públicas, onde enfrentou desafios e conquistou reconhecimento pelo seu trabalho.
+    </p>
+    <p>
+        Ao longo dos anos, participou de projetos educacionais e ajudou muitos alunos a superarem
+        dificuldades na leitura e escrita.
+    </p>
+</section>
+
+<section class="curiosidades">
+    <h2>Curiosidades</h2>
+
+    <div class="card"> Ama literatura brasileira</div>
+    <div class="card"> Não vive sem café</div>
+    <div class="card"> Adora filmes educativos</div>
+    <div class="card"> Já visitou 5 países</div>
+
+</section>
+
+<footer>
+    <p>© 2026 - Site de apresentação escolar</p>
+</footer>
+
+</body>
+</html>
